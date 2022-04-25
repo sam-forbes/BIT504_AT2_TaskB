@@ -9,7 +9,7 @@
        public Pong() {
               setTitle(WINDOW_TITLE);
               setSize(WINDOW_WIDTH, WINDOW_HEIGHT);
-              setResizable(false);
+              setResizable(true);
               add(new PongPanel());
               setVisible(true);
               setDefaultCloseOperation(EXIT_ON_CLOSE);
